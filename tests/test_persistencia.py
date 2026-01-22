@@ -12,12 +12,12 @@ def readExitosa():
     pass
 
 def updateExitoso():
-    #Entrada:Ruta valida y contenido.
-    #Salida:OK
+    #Entrada:Ruta valida y contenido válido
+    #Salida:contenido añadido al fichero
     pass
 def updateContenidoVacio():
     #Entrada:parametro Contenido vacio
-    #Salida:OK
+    #Salida:contenido añadido al fichero
     pass
 def updateRutaInvalida():
     #Entrada:ruta de fichero inexistente
@@ -30,7 +30,7 @@ def writeExitoso():
     pass
 def writeContenidoVacio():
     #Entrada:parametro Contenido vacio
-    #Salida:OK
+    #Salida:fichero con contenido vacio, como si hubieramos hecho un clear
     pass
 
 def writeRutaInvalida():
@@ -40,7 +40,7 @@ def writeRutaInvalida():
 
 def clearExitoso():
     #Entrada:Ruta de fichero valida
-    #Salida:fichero vacio
+    #Salida:fichero vaciado
     pass
 
 def clearRutaInvalida():
