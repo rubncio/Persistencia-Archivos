@@ -9,7 +9,11 @@ def read(rutaArchivo):
         
 def update(rutaArchivo, contenido): 
     #serializar
-    with open(rutaArchivo, "a") as archivo:
+    with open(rutaArchivo, "x") as archivo:
+        diccionarioJson=read(rutaArchivo)
+        contenido["id"]
+       # [usuario for usuario in diccionarioJson.]
+        diccionarioJson[contenido]
         json.dump(contenido, archivo, indent=4 )
 
 def write(rutaArchivo, contenido): 
@@ -26,7 +30,7 @@ def delete(rutaArchivo):
     os.remove(rutaArchivo)
 
 if __name__=="__main__":
-    write("data/usuarios.json",[{"id": 5,
+    """write("data/usuarios.json",[{"id": 5,
   "nombre": "angela",
   "email": "ana@ejemplo.com"},
   {"id": 6,
@@ -34,4 +38,5 @@ if __name__=="__main__":
   "email": "ana@ejemplo.com"},
   {"id": 7,
   "nombre": "alex",
-  "email": "ana@ejemplo.com"}])
+  "email": "ana@ejemplo.com"}])"""
+    print(read("data/usuarios.json"))
