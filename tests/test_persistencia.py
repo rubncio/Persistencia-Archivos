@@ -17,7 +17,7 @@ def updateExitoso():
     pass
 def updateContenidoVacio():
     #Entrada:parametro Contenido vacio
-    #Salida:contenido añadido al fichero
+    #Salida:contenido vacio añadido al fichero, como si no hubiesemos hecho nada.
     pass
 def updateRutaInvalida():
     #Entrada:ruta de fichero inexistente
